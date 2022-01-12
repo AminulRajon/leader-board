@@ -1,0 +1,41 @@
+/* Imported Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+/* Header Design */
+header{
+    background-color: #562EFF;
+}
+nav{
+    padding: 0.5% 30% 0.5% 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    Height: 51px;
+}
+.logo-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 15%;
+    color:#FFFFFF;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    padding: 0 15%;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color:#FFFFFF;
+}
